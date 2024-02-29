@@ -1,3 +1,4 @@
+
 /*! DataTables 1.10.0-dev
  * ©2008-2013 SpryMedia Ltd - datatables.net/license
  */
@@ -10603,7 +10604,7 @@
 			 *      } );
 			 *    } );
 			 */
-			"sInfo": "Showing _START_ to _END_ of _TOTAL_ entries",
+			"sInfo": "Show _START_ to _END_ of _TOTAL_ Entries",
 	
 	
 			/**
@@ -10624,7 +10625,7 @@
 			 *      } );
 			 *    } );
 			 */
-			"sInfoEmpty": "Showing 0 to 0 of 0 entries",
+			"sInfoEmpty": "Menampilkan 0 hingga 0 dari 0 entri",
 	
 	
 			/**
@@ -10813,7 +10814,7 @@
 			 *      } );
 			 *    } );
 			 */
-			"sSearch": "Search:",
+			"sSearch": "Pencarian:",
 	
 	
 			/**

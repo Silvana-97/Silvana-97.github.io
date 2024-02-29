@@ -1358,7 +1358,6 @@ jQuery.support = (function() {
 
 		// Verify style float existence
 		// (IE uses styleFloat instead of cssFloat)
-
 		cssFloat: !!a.style.cssFloat,
 
 		// Check the default checkbox/radio value ("" on WebKit; "on" elsewhere)
@@ -2884,7 +2883,6 @@ jQuery.event = {
 				if ( !special.teardown || special.teardown.call( elem, namespaces, elemData.handle ) === false ) {
 					jQuery.removeEvent( elem, type, elemData.handle );
 				}
-
 
 				delete events[ type ];
 			}
@@ -5967,7 +5965,6 @@ jQuery.fn.extend({
 		return this.domManip( arguments, false, function( elem ) {
 			if ( this.parentNode ) {
 				this.parentNode.insertBefore( elem, this );
-
 			}
 		});
 	},

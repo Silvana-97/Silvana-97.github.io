@@ -121,7 +121,6 @@ $.fn.extend({
 // selectors
 function focusable( element, isTabIndexNotNaN ) {
 	var map, mapName, img,
-
 		nodeName = element.nodeName.toLowerCase();
 	if ( "area" === nodeName ) {
 		map = element.parentNode;
@@ -1944,7 +1943,6 @@ $.widget("ui.droppable", {
 		hoverClass: false,
 		scope: "default",
 		tolerance: "intersect",
-
 
 		// callbacks
 		activate: null,
@@ -9375,7 +9373,6 @@ $.extend(Datepicker.prototype, {
 			html = "<div class='ui-datepicker-title'>",
 			monthHtml = "";
 
-
 		// month selection
 		if (secondary || !changeMonth) {
 			monthHtml += "<span class='ui-datepicker-month'>" + monthNames[drawMonth] + "</span>";
@@ -11630,7 +11627,6 @@ $.widget( "ui.menu", {
 			skip = false;
 
 			clearTimeout( this.filterTimer );
-
 
 			if ( character === prev ) {
 				skip = true;
